@@ -1,0 +1,182 @@
+# ── Virtual environments ──────────────────────────────────────────────────────
+.venv/
+PPP/
+tensorflow-env/
+tf-directml-env/
+venv/
+env/
+ENV/
+.env/
+virtualenv/
+.virtualenv/
+pipenv/
+poetry/
+
+# ── Python packaging / dependencies ───────────────────────────────────────────
+pip-log.txt
+pip-delete-this-directory.txt
+pip-selfcheck.json
+*.egg-info/
+*.egg
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+wheels/
+share/python-wheels/
+MANIFEST
+site-packages/
+
+# ── Python cache ──────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+.Python
+
+# ── Jupyter ───────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+profile_default/
+ipython_config.py
+
+# ── TensorFlow / Keras / ML model artifacts ───────────────────────────────────
+# Uncomment the lines below if you do NOT want to track trained model files.
+# *.h5
+# *.hdf5
+# *.onnx
+# *.tflite
+# *.pb
+saved_model/
+checkpoints/
+*.ckpt
+*.ckpt.*
+*.index
+*.data-00000-of-00001
+
+# ── TFLite / ONNX compiled outputs (regenerate with optimize_for_pi.py) ───────
+pi_models/
+
+# ── Dataset / large binary data ───────────────────────────────────────────────
+# Uncomment if your data directory contains large files you don't want tracked.
+# data/
+# "Data for different actions"/
+
+# ── MediaPipe model files (download at runtime) ───────────────────────────────
+mediapipe_models/*.task
+mediapipe_models/*.tflite
+
+# ── Logs ──────────────────────────────────────────────────────────────────────
+Logs/
+logs/
+*.log
+*.log.*
+log/
+
+# ── Temporary inspection / scratch scripts ────────────────────────────────────
+tmp_*.py
+scratch/
+*.tmp
+*.temp
+*.bak
+
+# ── Testing / coverage ────────────────────────────────────────────────────────
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+.cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+junit*.xml
+
+# ── Type checking / linting ───────────────────────────────────────────────────
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pytype/
+.pyre/
+.ruff_cache/
+
+# ── Environment / secrets ─────────────────────────────────────────────────────
+.env
+.env.*
+*.env
+!.env.example
+secrets.json
+config.local.*
+
+# ── OS generated files ────────────────────────────────────────────────────────
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+desktop.ini
+$RECYCLE.BIN/
+*.lnk
+*.stackdump
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ── IDE / editor ──────────────────────────────────────────────────────────────
+# VSCode
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# JetBrains (PyCharm, etc.)
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Vim / Emacs
+*.swp
+*.swo
+*.swn
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+auto-save-list
+tramp
+.\#*
+
+# Sublime Text
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
+
+# ── Claude / AI assistant internal state ──────────────────────────────────────
+.claude/
+
+# ── Profiling ─────────────────────────────────────────────────────────────────
+*.prof
+*.pstats
